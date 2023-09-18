@@ -5,7 +5,6 @@ import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined'
 import { Rating } from '@material-ui/lab'
 
 import useStyles from './styles.js'
-import { LocationOnOutlined } from '@material-ui/icons'
 
 function Map({ setCoordinates, setBounds, coordinates, places, setChildClicked  }) {
   const classes = useStyles()

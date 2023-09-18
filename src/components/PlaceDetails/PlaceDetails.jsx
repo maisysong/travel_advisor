@@ -5,7 +5,6 @@ import PhoneIcon from '@material-ui/icons/Phone'
 import Rating from '@material-ui/lab/Rating'
 
 import useStyles from './styles'
-import { Camera } from '@material-ui/icons'
 
 function PlaceDetails({ place, selected, refProp }) {
   const classes = useStyles()
